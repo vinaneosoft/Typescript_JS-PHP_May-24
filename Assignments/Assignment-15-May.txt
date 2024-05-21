@@ -1,0 +1,3 @@
+Implement any Entity class having instance variables, parameter constructor, instance methods.
+
+Create multiple objects of this class and call methods

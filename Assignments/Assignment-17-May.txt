@@ -1,0 +1,6 @@
+ compare 2 string literals and check output  ==, ===
+ compare 2 string objects and check output
+
+
+Implement Set API methods
+Implement MAP API methods

@@ -1,0 +1,5 @@
+1. Implement any example using spread/rest operator
+
+2. Implement any example on Array destructuring
+
+3. Implement any example on Object destructuring

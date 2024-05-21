@@ -1,0 +1,3 @@
+1. Implement singletone class (whose only 1 object must be created) using private constructor, static method
+2. Implement BankAccount class having instance variables account number, customer id, account type and balance.
+Account number must be auto incremented whenever new object will be created.

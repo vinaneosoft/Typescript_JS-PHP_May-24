@@ -1,0 +1,7 @@
+Implement validation logic using only javascript for any registration form
+
+1. Form must be validated for required field
+2. Form must be validated for pattern matching
+3. New password and confirm password must be matched
+4. Form error messages must come below every field and must be disappeared if field is valid
+5. Form must be validated on blur event on every field and also on submit event.

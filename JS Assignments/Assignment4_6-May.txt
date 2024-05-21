@@ -1,0 +1,12 @@
+Implement following string API
+ trimStart, trimEnd, trim , toUpperCase, toLowerCase, 
+localeCompare (string literals, string objects ), slice, split, includes
+
+Implement following array API
+join, includes, reverse, sort, find
+
+ declare salary array
+ 1. Iterate array using forEach function
+ 2. filter salaries <10000 using filter function 
+ 3. increment every salary by 5000 using map function
+ 4. display sum of salaries using reduce function

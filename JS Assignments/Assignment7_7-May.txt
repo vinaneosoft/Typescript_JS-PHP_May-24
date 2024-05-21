@@ -1,0 +1,9 @@
+Q.1 Create Image with attributes src, height, width and alt. Implement following code using JavaScript DOM
+
+when u click on zoomIn button : image should be zoomed in :increased by width and height
+when u click on zoomOut button : image should be zoomed out : decreased by width and height
+
+Q.2 Check DOM methods like append, prepend, before, after and implement any example to show their use
+
+
+Q.3 Implement full Navbar using only JavaScript. Also design it using only Javascript

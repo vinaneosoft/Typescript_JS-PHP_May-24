@@ -1,0 +1,8 @@
+Create Object array for 10 BankAccount object. Each bankaccount must have account number, customername, account type and balance
+
+Implement following using built in methods forEach, find, filter, map, reduce
+1. Display full array using forEach
+2. Find out all Savings Account and Display filtered array
+3. Find out first account having balance <5000
+4. Deposit 10000 in every account.
+

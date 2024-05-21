@@ -1,0 +1,4 @@
+Implement example for following
+
+1. what is the difference between == and ===
+2. Find out difference between      let s1="abc" and  let s2=new String("abc")
