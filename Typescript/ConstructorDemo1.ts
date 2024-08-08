@@ -8,9 +8,13 @@
         console.log("in non p constructor");
         this.accountNumber=0;
         this.custId=0;
-        this.accountType="current";
+        this.accountType="savings";
         this.accountBalance=0;
     }
+   /*  Multiple constructor implementations are not allowed
+    constructor(custId:number){
+     
+    } */
     depositMoney(amount:number):number{
      this.accountBalance=this.accountBalance+amount;
      return this.accountBalance;
@@ -26,25 +30,19 @@
  }
  
  let account1:BankAccount; // custom Data types
- account1=new BankAccount();  // default constructor : no parameters
- 
+ account1=new BankAccount();  // default constructor of class : no parameters // default values
  let account2=new BankAccount();
- 
  console.log(account1);
  console.log(account1.accountNumber);
- 
  console.log(account2);
  console.log(account2.custId);
- 
- account1.accountBalance=45000; // diff memory
+ account1.accountBalance=45000; // state change
  account2.accountBalance=89000; // diff memory
- 
- account1.depositMoney(10000); // instance method
  console.log(account1.accountBalance);
  console.log(account2.accountBalance);
- 
- let account3=account1; // this is not new object // another ref to already created object
- console.log(account3);
- 
-
- 
+ account1.depositMoney(10000); // instance method
+ account2.depositMoney(20000);
+ console.log(account1.accountBalance);
+ console.log(account2.accountBalance);
+ console.log(account1);
+ console.log(account2);
