@@ -29,7 +29,7 @@
  let account1:BankAccount; // custom Data types
  account1=new BankAccount("savings",23000, 4500, 6666666666);  // default constructor : no parameters
  let account2=new BankAccount("salary");
- let account3=new BankAccount("salary", 67000);
+ let account3=new BankAccount("savings", 67000);
  let account4=new BankAccount("salary", 55000,666);
  let account5=new BankAccount();
  console.log(account1);
